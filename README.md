@@ -132,6 +132,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 *For more information, please refer to the documentations:*
+- [Group Note (zh-tw)](https://hackmd.io/@William8334551/Tuya-IOT)
 - [pypi-tinytuya](https://pypi.org/project/tinytuya/)
 - [tuyapiphp.git](https://github.com/ground-creative/tuyapiphp.git)
 - [Tuya Official Documentation](https://www.tuya.com/)
