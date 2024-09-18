@@ -1,0 +1,57 @@
+{
+    "packages": [
+        {
+            "name": "tuyapiphp/tuyapiphp",
+            "version": "1.1.2",
+            "version_normalized": "1.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ground-creative/tuyapiphp.git",
+                "reference": "4aa749ef1eff30abcd87d244a40c91009dd2627d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ground-creative/tuyapiphp/zipball/4aa749ef1eff30abcd87d244a40c91009dd2627d",
+                "reference": "4aa749ef1eff30abcd87d244a40c91009dd2627d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "time": "2023-10-02T17:54:41+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "tuyapiphp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "groundcreative",
+                    "email": "carlo@ground-creative.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Tuya cloud api home management php client",
+            "keywords": [
+                "Tuya",
+                "smart life"
+            ],
+            "support": {
+                "issues": "https://github.com/ground-creative/tuyapiphp/issues",
+                "source": "https://github.com/ground-creative/tuyapiphp/tree/v1.1.2"
+            },
+            "install-path": "../tuyapiphp/tuyapiphp"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
