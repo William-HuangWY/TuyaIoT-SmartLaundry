@@ -10,15 +10,15 @@ $config = [
     'base_url' => 'https://openapi.tuyaus.com',
 ];
 
-$token = new TuyaApi\Token($config);
-$response = $token->getNewToken();
+$tuya = new TuyaApi\TuyaApiLite($config['base_url'], $config['client_id'], $config['client_secret']);
+$response = $tuya->getAccessToken();
 
 echo 'New Token Response: ';
 print_r($response);
 
 echo "\n\n";
 
-$currentToken = $token->getToken();
+$currentToken = $tuya->getToken();
 echo 'Current Token: ' . $currentToken . "\n";
 
 ?>
