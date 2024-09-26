@@ -20,7 +20,7 @@ require_once 'vendor/autoload.php';
 $config =
 [
 	'accessKey' 	=> 'xxxxxxxxxxxxxxxxx' , // client_id
-	'secretKey' 	=> 'xxxxxxxxxxxxxxxxx' , // clien_secret
+	'secretKey' 	=> 'xxxxxxxxxxxxxxxxx' , // client_secret
 	'baseUrl'		=> 'https://openapi.tuyaus.com'
 ];
 $app_id = "xxxxxxxxxxxxxxxxx"; // UID
